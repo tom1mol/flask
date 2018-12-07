@@ -1,0 +1,8 @@
+The Flask Framework                                             https://youtu.be/9_LW-vMsKLE
+Hello Flask                                                     https://youtu.be/ZV6nWy3SGxc
+Rendering HTML Code                                             https://youtu.be/hSGPf8XzfmM
+
+
+
+
+
