@@ -1,11 +1,21 @@
 import os               
-from flask import Flask     #import flask object from flask module
+from flask import Flask, render_template     #import flask object from flask module
 
 app = Flask(__name__)
 
 @app.route('/')     #forward slash as a string
-def hello():
-    return "Hello World"  #output hello world to browser
+def index():
+    return render_template("index.html")
+    
+
+@app.route('/about')
+def about():
+    return render_template("about.html")
+    
+    
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
     
     
 if __name__ == '__main__':       
