@@ -3,6 +3,8 @@ Hello Flask                                                     https://youtu.be
 Rendering HTML Code                                             https://youtu.be/hSGPf8XzfmM
                                                                 https://youtu.be/OefaQ4-bwsI
 Routing                                                         https://youtu.be/i_8eOIPxMck
+                                                                https://youtu.be/nCSjn_M3CQ0
+Template Inheritance                                            https://youtu.be/0-FQUGNRV0A                                                            
 
 
 
