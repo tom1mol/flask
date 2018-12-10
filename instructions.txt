@@ -1,3 +1,13 @@
 in workspace type sudo pip3 install flask
 
 python3 run.py
+
+
+>>>mkdir static (static is used for fioes that dont change) to create a folder static
+>>>cd static (change directory into static)
+>>>wget https://github.com/BlackrockDigital/startbootstrap-clean-blog/archive/gh-pages.zip
+>>>ls (to list the files)
+>>>unzip gh-pages.zip
+
+expand the static directory - expand startbootstrap-clean-blog - then copy css,img,js,mail,scss,vendor into static folder
+and delete startbootstrap and gh-pages.zip files(a little tricky moving them into the folder)
