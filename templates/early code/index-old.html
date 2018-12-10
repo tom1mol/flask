@@ -13,17 +13,18 @@
             <li><a href="{{ url_for('index') }}">Home</a></li>               <!--inside the "" can be "/" -->
             <li><a href="{{ url_for('about') }}">About</a></li>          <!--inside the "" can be "about"-->
             <li><a href="{{ url_for('contact') }}">Contact</a></li>     <!-- jinja templating language -->
-            <li><a href="{{ url_for('careers') }}">Careers</a></li>
         </ul>
     </nav>
         
-                                                               
-    {% block content %} <!--defining a block or area we can inject content into -->
-    {% endblock %}
+    <h1>Home Page</h1>
 </body>
 </html>
 
 
-<!-- with block content above..difference between 'curly bracket percent' and double curly bracket is that double curly bracket
-contains an expression that's outputting something to the screen or in our case above(to the href). 
-     the curly bracket percentage are for statements that control the flow of our template  -->
+<!-- in href above...can also be ...<li><a href="/">Home</a></li> or <li><a href="/about">about</a></li>
+<!-- when flask sees {{ it knows thats theres some code inside the brackets..we're callin the url_for() function
+    that looks up the view(route) called about() or contact() etc and then injects the text for the actual route. 
+    the names have to correspond to the view(route) -->
+    
+    
+    

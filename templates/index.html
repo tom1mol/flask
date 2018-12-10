@@ -1,30 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello Flask</title>
-</head>
-    
-<body>
-    <nav>
-        <ul>
-            <li><a href="{{ url_for('index') }}">Home</a></li>               <!--inside the "" can be "/" -->
-            <li><a href="{{ url_for('about') }}">About</a></li>          <!--inside the "" can be "about"-->
-            <li><a href="{{ url_for('contact') }}">Contact</a></li>     <!-- jinja templating language -->
-        </ul>
-    </nav>
-        
+{% extends 'base.html' %}
+{% block content %}
     <h1>Home Page</h1>
-</body>
-</html>
+{% endblock %}
 
 
-<!-- in href above...can also be ...<li><a href="/">Home</a></li> or <li><a href="/about">about</a></li>
-<!-- when flask sees {{ it knows thats theres some code inside the brackets..we're callin the url_for() function
-    that looks up the view(route) called about() or contact() etc and then injects the text for the actual route. 
-    the names have to correspond to the view(route) -->
-    
-    
-    
+
+
+
+
+<!-- when index.html loads, flask inherits everything from base.html. it then looks for a block(which we called "content")
+    and injects this content into it. content is a word we chose(could have called the block anything) and where we 
+        have multiple blocks on a page..we have different names for them. -->
