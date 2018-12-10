@@ -3,17 +3,17 @@ from flask import Flask, render_template     #import flask object from flask mod
 
 app = Flask(__name__)
 
-@app.route('/')     #forward slash as a string
-def index():
+@app.route('/')    #route decorator binds index function to itself so when root is called...function is called 
+def index():    #returns a template from index function
     return render_template("index.html")
     
 
-@app.route('/about')
+@app.route('/about')        #route is also called a view . whever we navigate to /about..it will return about template       
 def about():
     return render_template("about.html")
     
     
-@app.route('/contact')
+@app.route('/contact')              #decorator @app.route. path is "contact". bind to a view(route) called contact() 
 def contact():
     return render_template("contact.html")
     
