@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/clean-blog.min.css') }}" type="text/css" />
+                            <!-- so url_for knows to look in static/css/clean-blog.min.css -->
+    <title>Hello Flask</title>
+</head>
+    
+<body>
+    <nav class="navbar">   <!-- class=navbar linked to link above on line 7 -->
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>               <!--inside the "" can be "/" -->
+            <li><a href="{{ url_for('about') }}">About</a></li>          <!--inside the "" can be "about"-->
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>     <!-- jinja templating language -->
+            <li><a href="{{ url_for('careers') }}">Careers</a></li>
+        </ul>
+    </nav>
+        
+                                                               
+    {% block content %} <!--defining a block or area we can inject content into -->
+    {% endblock %}
+</body>
+</html>
+
+
+<!-- with block content above..difference between 'curly bracket percent' and double curly bracket is that double curly bracket
+contains an expression that's outputting something to the screen or in our case above(to the href). 
+     the curly bracket percentage are for statements that control the flow of our template  -->

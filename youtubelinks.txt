@@ -6,7 +6,10 @@ Routing                                                         https://youtu.be
                                                                 https://youtu.be/nCSjn_M3CQ0
 Template Inheritance                                            https://youtu.be/0-FQUGNRV0A                                                            
 
+Using A Bootstrap Theme                                         https://youtu.be/aASq20GWwTY
+Styling Our Templates                                           https://youtu.be/_PN3gQdvkBo
+Making The Design Our Own                                       https://youtu.be/0Hb0sM8L9OE
 
-
+Adding In Some Company Data                                     https://youtu.be/eNzbt3FXNSA
 
 
