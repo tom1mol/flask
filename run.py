@@ -10,17 +10,17 @@ def index():    #returns a template from index function
 
 @app.route('/about')        #route is also called a view . whever we navigate to /about..it will return about template       
 def about():
-    return render_template("about.html")
+    return render_template("about.html", page_title="About", list_of_numbers=[1, 2, 3])
     
     
 @app.route('/contact')              #decorator @app.route. path is "contact". bind to a view(route) called contact() 
 def contact():
-    return render_template("contact.html")
+    return render_template("contact.html", page_title="Contact")
     
 
 @app.route("/careers")
 def careers():
-    return render_template("careers.html")
+    return render_template("careers.html", page_title="Careers")
     
     
 if __name__ == '__main__':       

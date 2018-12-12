@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h2>About</h2>
+
+
+    {% for number in list_of_numbers %}
+        <p>{{ number }}</p>
+    {% endfor %}
+
+    <h2>{{ page_title }}</h2>
     <p>
         A large portion of today's men are momentarily allured by hair extensions, large chests,
         big bottoms and stilettos. They think sexuality comes in the form of bronzed skin,

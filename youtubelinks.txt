@@ -11,5 +11,7 @@ Styling Our Templates                                           https://youtu.be
 Making The Design Our Own                                       https://youtu.be/0Hb0sM8L9OE
 
 Adding In Some Company Data                                     https://youtu.be/eNzbt3FXNSA
+Passing Data From A View To A Template                          https://youtu.be/ommTRIlWyi0
+Using For Loops Inside HTML                                     https://youtu.be/P-u2_5suDtw
 
 
