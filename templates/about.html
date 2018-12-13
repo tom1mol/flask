@@ -2,10 +2,15 @@
 {% block content %}
 
 
-    {% for number in list_of_numbers %}   <!--iterate through list of nums then display that num in ptags on screen--> 
-        <p>{{ number }}</p>             <!-- inject number inside curly braces to display it to scren-->
-    {% endfor %}                           <!-- so that templating language knows where for loop stops-->
-                <!-- for loop created 3 sets of ptags and injected value from list-of-numbers into each one-->
+{{ company[1]["name"] }}       <!-- 0 to take 1st element out of the array and name to get name field -->
+
+<!--
+    {% for number in list_of_numbers %}   --iterate through list of nums then display that num in ptags on screen--
+        <p>{{ number }}</p>             -- inject number inside curly braces to display it to scren--
+    {% endfor %}                           !-- so that templating language knows where for loop stops--
+                !-- for loop created 3 sets of ptags and injected value from list-of-numbers into each one--
+-->
+
 
     <h2>{{ page_title }}</h2>
     <p>

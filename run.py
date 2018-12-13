@@ -1,4 +1,5 @@
-import os               
+import os
+import json
 from flask import Flask, render_template     #import flask object from flask module
 
 app = Flask(__name__)
@@ -10,8 +11,12 @@ def index():    #returns a template from index function
 
 @app.route('/about')        #route is also called a view . whever we navigate to /about..it will return about template       
 def about():
-    return render_template("about.html", page_title="About", list_of_numbers=[1, 2, 3])
-    
+    data = []               #empty array called data
+    with open("data/company.json", "r") as json_data:
+        data = json.load(json_data)                     #set data variable to json parsed data we sent through
+    return render_template("about.html", page_title="About", company = data) #list_of_numbers=[1, 2, 3]
+                                    #pass into return company = data. in template refer to data passed through as company
+                                    
     
 @app.route('/contact')              #decorator @app.route. path is "contact". bind to a view(route) called contact() 
 def contact():

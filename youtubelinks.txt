@@ -13,5 +13,7 @@ Making The Design Our Own                                       https://youtu.be
 Adding In Some Company Data                                     https://youtu.be/eNzbt3FXNSA
 Passing Data From A View To A Template                          https://youtu.be/ommTRIlWyi0
 Using For Loops Inside HTML                                     https://youtu.be/P-u2_5suDtw
+Reading From A JSON File                                        https://youtu.be/fzP0Y-Z6E2M
+
 
 
