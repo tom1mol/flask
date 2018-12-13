@@ -2,7 +2,7 @@
 {% block content %}
 
 
-{{ company[1]["name"] }}       <!-- 0 to take 1st element out of the array and name to get name field -->
+<!--{{ company[1]["name"] }}       -- 0 to take 1st element out of the array and name to get name field -->
 
 <!--
     {% for number in list_of_numbers %}   --iterate through list of nums then display that num in ptags on screen--
@@ -19,7 +19,26 @@
         bikini waxes and fake eyelashes. They've been programmed to believe that any woman with
         a sculpted body and perky breasts is attractive
     </p>
+    
+    
+    {% for member in company %}                <!-- for loop -->
+    
     <div class="row featurette">
+        <div class="col-md-7">
+            <h3>{{ member.name }}</h3>
+            <p>
+                {{ member.description }}
+            </p>
+        </div>
+        <div class="col-md-5">                      <!--featurette-image and img-responsive are bootstrap classes -->
+            <img class="featurette-image img-responsive" src="{{ member.image_source }}"
+        </div>
+    </div>
+    <hr class="featurette-divider">         <!-- horizontal rule between different members ->
+    
+<!--
+
+     <div class="row featurette">
         <div class="col-md-7">
             <h3>Alexis Ren</h3>
             <p>
@@ -33,6 +52,7 @@
             <img src="https://pbs.twimg.com/profile_images/921041131399467008/9879At9d_400x400.jpg"
         </div>
     </div>
+    
     <div class="row featurette">
         <div class="col-md-5">
             <img src="https://www.biography.com/.image/t_share/MTUxNTgzODk3Mjk2MDUzNTE2/gettyimages-870916736.jpg">
@@ -216,4 +236,8 @@
             <img src="https://i.redd.it/2onzzdhys5iz.jpg">
         </div>
     </div>
+    
+-->
+
+{% endfor %}
 {% endblock %}
