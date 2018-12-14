@@ -23,18 +23,46 @@
     
     {% for member in company %}                <!-- for loop -->
     
+           
+    
+    
     <div class="row featurette">
-        <div class="col-md-7">
-            <h3>{{ member.name }}</h3>
+        
+        
+        {% if loop.index %2 != 0 %}          <!--check loop.index to see if divides by 2 cleanly -->
+                                            <!-- if is odd num..text first followed by image-->
+        <div class="col-md-7">      <!-- .index shows us which iteration of the loop we're on -->
+            <h3>{{ loop.index }} {{ member.name }}</h3>
             <p>
                 {{ member.description }}
             </p>
         </div>
-        <div class="col-md-5">                      <!--featurette-image and img-responsive are bootstrap classes -->
-            <img class="featurette-image img-responsive" src="{{ member.image_source }}"
+        <div class="col-md-5">                  <!--featurette-image and img-responsive are bootstrap classes -->
+            <img class="featurette-image img-responsive" src="{{ member.image_source }}">
         </div>
+        
+        {% else %}   <!--otherwise we display image first followed by name and description -->
+        <div class="col-md-5">                      <!--featurette-image and img-responsive are bootstrap classes -->
+            <img class="featurette-image img-responsive" src="{{ member.image_source }}">
+        </div>
+        <div class="col-md-7">      <!-- .index shows us which iteration of the loop we're on -->
+            <h3>{{ loop.index }} {{ member.name }}</h3>
+            <p>
+                {{ member.description }}
+            </p>
+        </div>
+        
+        {% endif %}
+        
     </div>
-    <hr class="featurette-divider">         <!-- horizontal rule between different members ->
+    
+    {% if loop.index != 13 %}      <!--if loop.index not equal 13...then display horizontal rule-->
+    
+    <hr class="featurette-divider">       
+    
+    {% endif %}
+    
+    <!-- horizontal rule between different members ->
     
 <!--
 
@@ -239,5 +267,5 @@
     
 -->
 
-{% endfor %}
+    {% endfor %}
 {% endblock %}
