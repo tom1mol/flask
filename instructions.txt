@@ -11,3 +11,5 @@ python3 run.py
 
 expand the static directory - expand startbootstrap-clean-blog - then copy css,img,js,mail,scss,vendor into static folder
 and delete startbootstrap and gh-pages.zip files(a little tricky moving them into the folder)
+
+https://github.com/BlackrockDigital/startbootstrap-clean-blog

@@ -17,7 +17,10 @@ Reading From A JSON File                                        https://youtu.be
 Iterating Over Our JSON Data                                    https://youtu.be/r1fo9iN8cfM
 Using If Statements Inside Our HTML                             https://youtu.be/ooIRblr0BVc
 
+routing the templates:
 Advanced Routing                                                https://youtu.be/x8VY_2A8ze4
+Creating A Form In A Template                                   https://youtu.be/g4umP6K7XfE
+
 
 
 
