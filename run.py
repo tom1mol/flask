@@ -16,7 +16,20 @@ def about():
         data = json.load(json_data)                     #set data variable to json parsed data we sent through
     return render_template("about.html", page_title="About", company = data) #list_of_numbers=[1, 2, 3]
                                     #pass into return company = data. in template refer to data passed through as company
-                                    
+         
+@app.route("/about/<member_name>")          
+def about_member(member_name):      #new view..about_member with argument member_name
+    member = {}                     #empty object to store data in
+    
+    with open("data/company.json", "r") as json_data: #open comp.json for reading and refer to as json_data
+        data = json.load(json_data)     #create another var inside where we pass the data that we've passed through and convert into json
+        for obj in data:                    #iterate through data array
+            if obj["url"] == member_name:   #if url in that element of our array = member name
+                member = obj             #member obj = current object
+                
+    return render_template("member.html", member=member)
+    
+    
     
 @app.route('/contact')              #decorator @app.route. path is "contact". bind to a view(route) called contact() 
 def contact():

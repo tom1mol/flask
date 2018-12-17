@@ -1,0 +1,15 @@
+{% extends "base.html" %}      <!--extend base.html so we get all the styling that we have in other templates-->
+{% block content %}              <!-- provide our block content -->
+
+
+<div class="row">
+    <div class="col-md-5">
+        <img src="{{ member.image_source }}" alt="Profile image for {{ member.name }}" >
+        <h2 class="col-md-7">{{ member.name }}</h2>
+    </div>
+</div>
+<div class="col-md-12"></div>
+    <p>{{ member.description }}</p>
+</div>
+
+{% endblock %}

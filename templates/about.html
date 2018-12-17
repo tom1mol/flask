@@ -32,7 +32,7 @@
         {% if loop.index %2 != 0 %}          <!--check loop.index to see if divides by 2 cleanly -->
                                             <!-- if is odd num..text first followed by image-->
         <div class="col-md-7">      <!-- .index shows us which iteration of the loop we're on -->
-            <h3>{{ loop.index }} {{ member.name }}</h3>
+            <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
             <p>
                 {{ member.description }}
             </p>
@@ -42,11 +42,14 @@
         </div>
         
         {% else %}   <!--otherwise we display image first followed by name and description -->
+                    <!-- this else statement is to display the even rows -->
         <div class="col-md-5">                      <!--featurette-image and img-responsive are bootstrap classes -->
             <img class="featurette-image img-responsive" src="{{ member.image_source }}">
         </div>
         <div class="col-md-7">      <!-- .index shows us which iteration of the loop we're on -->
-            <h3>{{ loop.index }} {{ member.name }}</h3>
+           <!-- <h3>{{ loop.index }} {{ member.name }}</h3> -->
+            <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+           
             <p>
                 {{ member.description }}
             </p>

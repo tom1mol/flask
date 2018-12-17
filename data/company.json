@@ -2,66 +2,79 @@
     {
         "name": "Alexis Ren",
         "description": "Alexis Ren (born November 23, 1996) is an American model and Internet celebrity.She was Maxim's cover girl for the August 2017 issue, Maxim's Mexico cover girl for the March 2018 issue, is a Sports Illustrated Swimsuit Issue Rookie for 2018,has 13 million followers on Instagram and 1.6 million followers on Twitter.",
-        "image_source": "https://pbs.twimg.com/profile_images/921041131399467008/9879At9d_400x400.jpg"
+        "image_source": "https://pbs.twimg.com/profile_images/921041131399467008/9879At9d_400x400.jpg",
+        "url": "alexis"
     },
     {
         "name": "Margot Robbie",
         "description": "Born and raised on a farm in Dalby, Queensland, Robbie studied drama at Somerset College.She began her career in Australian independent films in the late 2000s, before working in the soap opera Neighbours (2008–2011), which earned her two Logie Award nominations. After moving to the United States, she starred in the short-lived ABC drama series PanAm (2011–2012). In 2013, she had a supporting role in the romantic comedy About Time, and made her breakthrough later that year, by co-starring in Martin Scorsese's biographical black comedy The Wolf of Wall Street.",
-        "image_source": "https://www.biography.com/.image/t_share/MTUxNTgzODk3Mjk2MDUzNTE2/gettyimages-870916736.jpg"
+        "image_source": "https://www.biography.com/.image/t_share/MTUxNTgzODk3Mjk2MDUzNTE2/gettyimages-870916736.jpg",
+        "url": "margot"
     },
     {
         "name": "Gal Gadot",
         "description": "Born 30 April 1985)[6] is an Israeli actress, model and film producer. At age 18, she was crowned Miss Israel 2004. She then served two years in the Israel Defense Forces as a combat instructor, and began studying law and international relations at IDC Herzliya college while building up her modeling and acting careers.",
-        "image_source": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/409294"
+        "image_source": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/409294",
+        "url": "gal"
     },
     {
         "name": "Beyonce",
         "description": "Beyoncé Giselle Knowles-Carter is an American singer, songwriter, actress, record producer,and dancer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as lead singer of the R&B girl-group Destiny's Child. Wikipedia",
-        "image_source": "https://timedotcom.files.wordpress.com/2016/02/beyonce-knowles-portrait.jpg"
+        "image_source": "https://timedotcom.files.wordpress.com/2016/02/beyonce-knowles-portrait.jpg",
+        "url": "beyonce"
     },
     {
         "name": "Kate Upton",
         "description": "Katherine Elizabeth Upton is an American model and actress. Upton was named the Sports Illustrated Swimsuit Issue Rookie of the Year following her appearance in the magazine in 2011, and was the cover model for the 2012, 2013 and 2017 issues. She was also the subjectof the 100th-anniversary Vanity Fair cover.",
-        "image_source": "https://healthyceleb.com/wp-content/uploads/2012/07/Kate-Upton-at-Vanity-Fair-Oscar-2016-Party-in-Beverly-Hills-California.jpg"
+        "image_source": "https://healthyceleb.com/wp-content/uploads/2012/07/Kate-Upton-at-Vanity-Fair-Oscar-2016-Party-in-Beverly-Hills-California.jpg",
+        "url": "kate"
     },
     {
         "name": "Scarlett Johansson",
         "description": "Scarlett Ingrid Johansson is an American actress and singer. Johansson is the world'shighest-paid actress, has made multiple appearances in the Forbes Celebrity 100, and has a star on the Hollywood Walk of Fame.",
-        "image_source": "https://www.mensjournal.com/wp-content/uploads/mf/scarlett_johansson_main_37.jpg?w=1200"
+        "image_source": "https://www.mensjournal.com/wp-content/uploads/mf/scarlett_johansson_main_37.jpg?w=1200",
+        "url": "scarlett"
     },
     {
         "name": "Minka Kelly",
         "description": "Minka Kelly is an American actress. She is most known for her roles in the television shows Friday Night Lights, Parenthood, Charlie's Angels and Almost Human. Kelly currently stars as Dawn Granger / Dove in Titans.",
-        "image_source": "https://www.peoplemagazine.co.za/wp-content/uploads/2017/10/62e1e79b63ed9adb2eb4f4f3e01fcbc0.jpg"
+        "image_source": "https://www.peoplemagazine.co.za/wp-content/uploads/2017/10/62e1e79b63ed9adb2eb4f4f3e01fcbc0.jpg",
+        "url": "minka"
     },
     {
         "name": "Arianny Celeste",
         "description": "Arianny Celeste is an American ring girl and model. She is best known for being a ring girl for the UFC. She is also a co-host on TV show Overhaulin' and a model featured in magazine Playboy.",
-        "image_source": "http://i.imgur.com/2SHJdXv.jpg"
+        "image_source": "http://i.imgur.com/2SHJdXv.jpg",
+        "url": "arianny"
     },
     {
         "name": "Kara Del Toro",
         "description": "Kara was born in a small town in Texas between Houston and Galveston Bay. She currentlyresides in Los Angeles.When asked about her idea of a perfect date, Kara said, “Cook something nice together and watch a romantic movie on the couch, and fall asleep.” Her low-key date idea likely stems from her childhood as she explains, “I grew up on the water. We have gorgeous sunsets over the lake, so that’s really special. I certainly miss that … and just my family, being with my mom and dad. And home-cooked meals! Those are amazing!” The girl does know how to eat, and she isn’t afraid to show it! Who knew eating donuts could look so sexy?",
-        "image_source": "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-s3.si.com%2Fimages%2Fkara-del-toro-instagram.jpg&w=700&q=85"
+        "image_source": "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-s3.si.com%2Fimages%2Fkara-del-toro-instagram.jpg&w=700&q=85",
+        "url": "kara"
     },
     {
         "name": "Jessica Green",
         "description": "Jessica Green is an American engineer, ecologist, and entrepreneur whose research focuseson Microbial Ecology and Genomics. She is an Alec and Kay Keith Professor at the University of Oregon, where she is founding director of the Biology and Built Environment Center, and external faculty at the Santa Fe Institute.[3] Green co-founded Phylagen Inc.in 2015 with Harrison Dillon, the founder of Solazyme.",
-        "image_source": "https://i.pinimg.com/originals/15/6b/64/156b642c344d1125db4922160c8dafdb.jpg"
+        "image_source": "https://i.pinimg.com/originals/15/6b/64/156b642c344d1125db4922160c8dafdb.jpg",
+        "url": "jessie"
     },
     {
         "name": "Melanie Iglesias",
         "description": "Melanie Iglesias is an American model and actress. After being voted Maxim's 'Hometown Hotties' winner in 2010, she has been featured in magazines such as World's Most Beautiful, Esquire, and Vibe.",
-        "image_source": "https://i.pinimg.com/originals/8c/f5/b8/8cf5b83d9fdfcfd6c52b60dddef09dbd.jpg"
+        "image_source": "https://i.pinimg.com/originals/8c/f5/b8/8cf5b83d9fdfcfd6c52b60dddef09dbd.jpg",
+        "url": "melanie"
     },
     {
         "name": "Stefanie Scott",
         "description": "Stefanie Noelle Scott is an American actress and singer. Scott is best known for herroles as Quinn Brenner in the film Insidious: Chapter 3, Dana Tressler in the film Flipped, for which she won a 2011 Young Artist Award, and Lexi Reed on Disney Channel's A.N.T. Farm.",
-        "image_source": "https://vignette.wikia.nocookie.net/ahighschoolrockstar/images/d/d0/Stefanie_Scott_033.jpg/revision/latest?cb=20130407065657"
+        "image_source": "https://vignette.wikia.nocookie.net/ahighschoolrockstar/images/d/d0/Stefanie_Scott_033.jpg/revision/latest?cb=20130407065657",
+        "url": "stefanie"
     },
     {
         "name": "Merritt Patterson",
         "description": "Merritt Patterson is a Canadian actress. She is known for playing Olivia on the short-lived Pretty Little Liars spin-off Ravenswood, and for playing Ophelia on E! network's television series The Royals.",
-        "image_source": "https://i.redd.it/2onzzdhys5iz.jpg"
+        "image_source": "https://i.redd.it/2onzzdhys5iz.jpg",
+        "url": "merritt"
     }
 ]
