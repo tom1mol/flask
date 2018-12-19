@@ -7,3 +7,19 @@ to rename the app:
 heroku apps:rename tasty-ladies --app tasty-ladies
 
 every heroke app comes with its own git url and its own url that will be used to access our website
+
+git remot -v     give verbose output about the remotes that i have
+**** this gives 
+heroku  https://git.heroku.com/tasty-ladies.git (fetch)
+heroku  https://git.heroku.com/tasty-ladies.git (push)
+origin  https://github.com/tom1mol/flask.git (fetch)
+origin  https://github.com/tom1mol/flask.git (push)
+
+
+https://git.heroku.com/tasty-ladies.git
+https://tasty-ladies.herokuapp.com
+
+git remote add heroku https://git.heroku.com/tasty-ladies.git
+git remote -v
+git status
+git push -u heroku master

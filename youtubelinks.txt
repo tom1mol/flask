@@ -28,6 +28,9 @@ Signing Up To Heroku                                            https://youtu.be
 Creating A New Heroku App                                       https://youtu.be/xigwIqlYpoU
 The Heroku Toolbelt                                             https://youtu.be/ohKc2pQ8MZE
 Pushing To Heroku                                               https://youtu.be/fwu5f0-TYIQ
+Adding A Requirements.Txt File                                  https://youtu.be/PjIs8YH87fo
+
+
 
 
 
