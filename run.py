@@ -1,7 +1,7 @@
 import os
 import json
-from flask import Flask, render_template     #import flask object from flask module
-
+from flask import Flask, render_template, request     #import flask object from flask module
+        #request handles finding out method used and contains form object when we've posted it
 app = Flask(__name__)
 
 @app.route('/')    #route decorator binds index function to itself so when root is called...function is called 
@@ -26,13 +26,17 @@ def about_member(member_name):      #new view..about_member with argument member
         for obj in data:                    #iterate through data array
             if obj["url"] == member_name:   #if url in that element of our array = member name
                 member = obj             #member obj = current object
-                
+     
+     #alternative rtn is return "<h1>" + member["name"] + "</h1>"     (brings up members name)      
     return render_template("member.html", member=member)
     
     
     
-@app.route('/contact')              #decorator @app.route. path is "contact". bind to a view(route) called contact() 
+@app.route('/contact', methods=["GET", "POST"]) #decorator @app.route. path is "contact". bind to a view(route) called contact() 
 def contact():
+    if request.method=="POST":
+        print(request.form)
+        
     return render_template("contact.html", page_title="Contact")
     
 
