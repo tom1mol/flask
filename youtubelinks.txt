@@ -27,6 +27,7 @@ Deploying Our Project To Heroku:
 Signing Up To Heroku                                            https://youtu.be/9thBJVI5QrM
 Creating A New Heroku App                                       https://youtu.be/xigwIqlYpoU
 The Heroku Toolbelt                                             https://youtu.be/ohKc2pQ8MZE
+Pushing To Heroku                                               https://youtu.be/fwu5f0-TYIQ
 
 
 

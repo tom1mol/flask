@@ -1,0 +1,9 @@
+login usin command line
+>>heroku login
+user:
+pass:
+>>heroku apps
+to rename the app:
+heroku apps:rename tasty-ladies --app tasty-ladies
+
+every heroke app comes with its own git url and its own url that will be used to access our website
