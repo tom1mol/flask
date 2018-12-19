@@ -1,8 +1,12 @@
 import os
 import json
-from flask import Flask, render_template, request     #import flask object from flask module
+from flask import Flask, render_template, request, flash     #import flask object from flask module
         #request handles finding out method used and contains form object when we've posted it
+        #flash..flash messages are temp messages that go on refresh
+        
 app = Flask(__name__)
+app.secret_key = 'some_secret'      #secret key for flash(above)
+
 
 @app.route('/')    #route decorator binds index function to itself so when root is called...function is called 
 def index():    #returns a template from index function
@@ -35,7 +39,7 @@ def about_member(member_name):      #new view..about_member with argument member
 @app.route('/contact', methods=["GET", "POST"]) #decorator @app.route. path is "contact". bind to a view(route) called contact() 
 def contact():
     if request.method=="POST":
-        print(request.form)
+        flash("Thanks {}, we have received your message!".format(request.form["name"]))
         
     return render_template("contact.html", page_title="Contact")
     

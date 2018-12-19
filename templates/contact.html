@@ -4,6 +4,18 @@
 <!-- this was copy/pasted from https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/contact.html-->
 <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
+        {% with messages = get_flashed_messages() %}         <!--"with" block for retrieving flashed messages-->
+        <!-- get_flashed_messages returns messages we've created using flash() function in back end and 
+            store in a variable called messages -->
+        {% if messages %} <!-- if we have successfully returned messages from get_flashed_messages function
+            then create some html.  -->
+        <ul class="flashes">    <!--we give it a class for styling later-->
+            {% for message in messages %}
+            <li>{{ message }}</li>  <!-- display individual message left -->
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
         <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
         <form method="POST" name="sentMessage" id="contactForm" novalidate>
             <!-- http methods for the form- GET for retrieving. POST for sending -->
