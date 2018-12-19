@@ -23,7 +23,10 @@ Creating A Form In A Template                                   https://youtu.be
 POST                                                            https://youtu.be/ES_5Nwphd2Q
 Providing Feedback To The User                                  https://youtu.be/Wz9FnMJH_Ec
 
-
+Deploying Our Project To Heroku:
+Signing Up To Heroku                                            https://youtu.be/9thBJVI5QrM
+Creating A New Heroku App                                       https://youtu.be/xigwIqlYpoU
+The Heroku Toolbelt                                             https://youtu.be/ohKc2pQ8MZE
 
 
 
