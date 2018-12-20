@@ -29,6 +29,8 @@ Creating A New Heroku App                                       https://youtu.be
 The Heroku Toolbelt                                             https://youtu.be/ohKc2pQ8MZE
 Pushing To Heroku                                               https://youtu.be/fwu5f0-TYIQ
 Adding A Requirements.Txt File                                  https://youtu.be/PjIs8YH87fo
+Adding A Procfile                                               https://youtu.be/KxOE7xZYeQ4
+
 
 
 

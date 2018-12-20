@@ -8,7 +8,7 @@ heroku apps:rename tasty-ladies --app tasty-ladies
 
 every heroke app comes with its own git url and its own url that will be used to access our website
 
-git remot -v     give verbose output about the remotes that i have
+git remote -v     give verbose output about the remotes that i have
 **** this gives 
 heroku  https://git.heroku.com/tasty-ladies.git (fetch)
 heroku  https://git.heroku.com/tasty-ladies.git (push)
@@ -23,3 +23,22 @@ git remote add heroku https://git.heroku.com/tasty-ladies.git
 git remote -v
 git status
 git push -u heroku master
+
+
+sudo pip3 freeze --local `> requirements.txt  this redirects the output into requirements.txt file
+
+procfile: 
+echo web: python run.py > Procfile      (redirect into file called Procfile)
+tells heroku that its going to be a web process.command to run application is python run.py
+
+heroku ps:scale web=1  (start a web process)
+
+on heroku site..settings..reveal config vars..set key to IP and value to 0.0.0.0
+then choose the pen and set IP to 0.0.0.0
+and on next line set key to PORT and value to 5000
+
+1: create heroku app
+2: link local git repo to heroku
+3: create requirements.txt file which will install the dependencies for our project
+    and tell heroku that we're using python
+4: create a Procfile
